@@ -1,0 +1,23 @@
+{
+  "name": "next-git-build-id",
+  "version": "0.1.0",
+  "description": "Generate next.js's BUILD_ID from git revision hash",
+  "bin": "bin/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibukawa/next-git-build-id.git"
+  },
+  "keywords": [
+    "next.js",
+    "build"
+  ],
+  "author": "Yoshiki Shibukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shibukawa/next-git-build-id/issues"
+  },
+  "homepage": "https://github.com/shibukawa/next-git-build-id#readme",
+  "dependencies": {
+    "githash": "0.0.4"
+  }
+}
